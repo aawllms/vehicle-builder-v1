@@ -6,7 +6,7 @@ import Wheel from "./Wheel.js";
 import AbleToTow from "../interfaces/AbleToTow.js";
 
 // TODO: The Truck class should extend the Vehicle class and should implement the AbleToTow interface
-class Truck extends Vehicle {
+class Truck extends Vehicle implements AbleToTow {
   // TODO: Declare properties of the Truck class(done)
   // TODO: The properties should include vin, color, make, model, year, weight, top speed, wheels, and towing capacity(done)
   // TODO: The types should be as follows: vin (string), color (string), make (string), model (string),(done)
@@ -71,7 +71,7 @@ class Truck extends Vehicle {
     // TODO: The method should call the printDetails method of the parent class(done)
     super.printDetails();
     // TODO: The method should log the details of the Truck(done)
-        // TODO: The details should include the VIN, make, model, year, weight, top speed, color, towing capacity, and wheels(done)
+    // TODO: The details should include the VIN, make, model, year, weight, top speed, color, towing capacity, and wheels(done)
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);
     console.log(`Make: ${this.make}`);
@@ -92,7 +92,6 @@ class Truck extends Vehicle {
     console.log(
       `Wheel 4: ${this.wheels[3].getDiameter} inch with a ${this.wheels[3].getTireBrand} tire`
     );
-
   }
 }
 

@@ -2,10 +2,10 @@
 
   # Vehicle Builder
 
-  ![alt text](https://img.shields.io/badge/LICENSE-MIT-blue)
+  ![alt text](https://img.shields.io/badge/LICENSE-mozilla-blue)
   
   ## Description
-  A command line application that allows a user to create or use vehicles in an array and complete actions.
+  Vehicle builder is a command line application that allows a user to create or use existing vehicles in an array and to complete actions for the selected vehicle. a recording of the app can be found here: https://drive.google.com/file/d/184EKNWk164z9oKFQfI5vgBXdnSpl0Ebn/view
 
   ## Table of Contents
   
@@ -17,15 +17,15 @@
   - [Questions](#questions)
   
   ## Installation
-  download code from gitHub and open using VS code or another code editing software
+  download the code fromt the repo vehicle-builder-v1 from the repo and open it up in a code editing software.
   
   ## Usage
-  open code. run the following commands: npm i && npm start. follow command line prompts to make, select and complete actions on vehicles.
+  Open code, run the following commands: npm i && npm start, follow the command line prompts to make, select, and complete actions on vehicles.
 
   
   ## License
-  MIT
-  [MIT License](https://mit-license.org/)
+  mozilla
+  []
   
   
   
@@ -34,11 +34,11 @@
   undefined
   
   ## Tests
-  download app, run scenarios
+  download the code, run the command to install neccessary libraries, complete actions using the command line. When done, simply select exit.
   
   ## Questions
-  https://github.com/aawllms
+  https://github.com/aawllms/vehicle-builder-v1
 
   aarondwilliams8@gmail.com
   
-    # vehicle-builder-v1
+    

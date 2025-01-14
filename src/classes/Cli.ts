@@ -510,6 +510,7 @@ class Cli {
                 //  return to avoid instantly calling the performActions method again since
                 // findVehicleToTow is asynchronous.
                 this.findVehicleToTow(selectedVehicle);
+                
                 return;
               } else {
                 console.log(
@@ -529,6 +530,7 @@ class Cli {
                 return;
               } else {
                 console.log("This vehicle cannot do a wheelie");
+                this.performActions();
                 return;
               }
             }

@@ -1,4 +1,5 @@
 // import Driveable interface
+import AbleToTow from '../interfaces/AbleToTow.js';
 import Driveable from '../interfaces/Driveable.js';
 
 // Vehicle class that implements Driveable interface
